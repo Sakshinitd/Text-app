@@ -18,7 +18,7 @@ function App() {
   return (
      //creating navbar
     <>
-      <BrowserRouter>
+      <BrowserRouter basename="/Text-app">
        <Navbar title="text"/>
        <Routes>
        <Route path="/" element={<TextForm title="email"/>}/>
